@@ -10,14 +10,14 @@ import (
 	"reflect"
 
 	"github.com/google/uuid"
-	"github.com/qinzj/claude-demo/internal/ent/migrate"
+	"github.com/qinzj/ums-ldap/internal/ent/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
-	"github.com/qinzj/claude-demo/internal/ent/group"
-	"github.com/qinzj/claude-demo/internal/ent/user"
+	"github.com/qinzj/ums-ldap/internal/ent/group"
+	"github.com/qinzj/ums-ldap/internal/ent/user"
 )
 
 // Client is the client that holds all ent builders.

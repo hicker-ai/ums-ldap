@@ -7,9 +7,9 @@ import (
 	"github.com/google/uuid"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/qinzj/claude-demo/internal/dao"
-	"github.com/qinzj/claude-demo/internal/domain"
-	"github.com/qinzj/claude-demo/internal/ent/user"
+	"github.com/qinzj/ums-ldap/internal/dao"
+	"github.com/qinzj/ums-ldap/internal/domain"
+	"github.com/qinzj/ums-ldap/internal/ent/user"
 )
 
 // UserService handles user business logic.

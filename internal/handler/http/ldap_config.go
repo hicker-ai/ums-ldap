@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/qinzj/claude-demo/internal/config"
+	"github.com/qinzj/ums-ldap/internal/config"
 )
 
 // LDAPConfigHandler handles LDAP configuration endpoints.

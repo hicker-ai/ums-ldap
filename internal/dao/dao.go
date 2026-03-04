@@ -3,7 +3,7 @@ package dao
 import (
 	"context"
 
-	"github.com/qinzj/claude-demo/internal/ent"
+	"github.com/qinzj/ums-ldap/internal/ent"
 )
 
 // DAO provides data access operations.

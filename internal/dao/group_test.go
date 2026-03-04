@@ -7,7 +7,7 @@ import (
 	"github.com/google/uuid"
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/qinzj/claude-demo/internal/ent/enttest"
+	"github.com/qinzj/ums-ldap/internal/ent/enttest"
 )
 
 func setupGroupTestDAO(t *testing.T) (*DAO, context.Context) {

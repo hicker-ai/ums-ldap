@@ -6,8 +6,8 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/qinzj/claude-demo/internal/domain"
-	"github.com/qinzj/claude-demo/internal/ent/enttest"
+	"github.com/qinzj/ums-ldap/internal/domain"
+	"github.com/qinzj/ums-ldap/internal/ent/enttest"
 )
 
 func setupTestDAO(t *testing.T) (*DAO, context.Context) {

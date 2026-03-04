@@ -6,7 +6,7 @@ import (
 	"github.com/jimlambrt/gldap"
 	"go.uber.org/zap"
 
-	"github.com/qinzj/claude-demo/internal/ldap/dn"
+	"github.com/qinzj/ums-ldap/internal/ldap/dn"
 )
 
 func (h *Handler) handleBind(w *gldap.ResponseWriter, r *gldap.Request) {

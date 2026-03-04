@@ -6,9 +6,9 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/qinzj/claude-demo/internal/dao"
-	"github.com/qinzj/claude-demo/internal/domain"
-	"github.com/qinzj/claude-demo/internal/ent/enttest"
+	"github.com/qinzj/ums-ldap/internal/dao"
+	"github.com/qinzj/ums-ldap/internal/domain"
+	"github.com/qinzj/ums-ldap/internal/ent/enttest"
 )
 
 func setupUserService(t *testing.T) (*UserService, context.Context) {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/qinzj/claude-demo/internal/dao"
-	"github.com/qinzj/claude-demo/internal/domain"
+	"github.com/qinzj/ums-ldap/internal/dao"
+	"github.com/qinzj/ums-ldap/internal/domain"
 )
 
 // GroupService handles group business logic.

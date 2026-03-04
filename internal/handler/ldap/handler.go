@@ -7,10 +7,10 @@ import (
 	"github.com/jimlambrt/gldap"
 	"go.uber.org/zap"
 
-	"github.com/qinzj/claude-demo/internal/config"
-	"github.com/qinzj/claude-demo/internal/domain"
-	"github.com/qinzj/claude-demo/internal/ldap/attrs"
-	"github.com/qinzj/claude-demo/internal/ldap/dn"
+	"github.com/qinzj/ums-ldap/internal/config"
+	"github.com/qinzj/ums-ldap/internal/domain"
+	"github.com/qinzj/ums-ldap/internal/ldap/attrs"
+	"github.com/qinzj/ums-ldap/internal/ldap/dn"
 )
 
 // UserService defines the user operations needed by LDAP handler.

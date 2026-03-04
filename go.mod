@@ -1,4 +1,4 @@
-module github.com/qinzj/claude-demo
+module github.com/qinzj/ums-ldap
 
 go 1.24.0
 

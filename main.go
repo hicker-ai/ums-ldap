@@ -1,6 +1,6 @@
 package main
 
-import "github.com/qinzj/claude-demo/cmd"
+import "github.com/qinzj/ums-ldap/cmd"
 
 // @title           Claude Demo API
 // @version         1.0

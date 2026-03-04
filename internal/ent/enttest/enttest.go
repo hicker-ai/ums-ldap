@@ -5,12 +5,12 @@ package enttest
 import (
 	"context"
 
-	"github.com/qinzj/claude-demo/internal/ent"
+	"github.com/qinzj/ums-ldap/internal/ent"
 	// required by schema hooks.
-	_ "github.com/qinzj/claude-demo/internal/ent/runtime"
+	_ "github.com/qinzj/ums-ldap/internal/ent/runtime"
 
 	"entgo.io/ent/dialect/sql/schema"
-	"github.com/qinzj/claude-demo/internal/ent/migrate"
+	"github.com/qinzj/ums-ldap/internal/ent/migrate"
 )
 
 type (

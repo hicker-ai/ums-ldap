@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/qinzj/claude-demo/pkg/logs"
+	"github.com/qinzj/ums-ldap/pkg/logs"
 )
 
 // Config holds all configuration for the application.
@@ -76,11 +76,11 @@ type LogConfig struct {
 type RotateConfig struct {
 	Enabled    bool   `mapstructure:"enabled"`     // enable file output
 	OutputPath string `mapstructure:"output_path"` // log directory, e.g. "./logs"
-	MaxSize    int    `mapstructure:"max_size"`     // max size per file in MB
-	MaxAge     int    `mapstructure:"max_age"`      // max days to retain old files
-	MaxBackups int    `mapstructure:"max_backups"`  // max number of old files to retain
-	Compress   bool   `mapstructure:"compress"`     // gzip old files
-	LocalTime  bool   `mapstructure:"local_time"`   // use local time in filenames (default UTC)
+	MaxSize    int    `mapstructure:"max_size"`    // max size per file in MB
+	MaxAge     int    `mapstructure:"max_age"`     // max days to retain old files
+	MaxBackups int    `mapstructure:"max_backups"` // max number of old files to retain
+	Compress   bool   `mapstructure:"compress"`    // gzip old files
+	LocalTime  bool   `mapstructure:"local_time"`  // use local time in filenames (default UTC)
 }
 
 // ToLogsConfig converts LogConfig to logs.Config.

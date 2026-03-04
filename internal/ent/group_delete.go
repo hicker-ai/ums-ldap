@@ -8,8 +8,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/qinzj/claude-demo/internal/ent/group"
-	"github.com/qinzj/claude-demo/internal/ent/predicate"
+	"github.com/qinzj/ums-ldap/internal/ent/group"
+	"github.com/qinzj/ums-ldap/internal/ent/predicate"
 )
 
 // GroupDelete is the builder for deleting a Group entity.

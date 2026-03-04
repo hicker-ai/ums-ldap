@@ -28,7 +28,7 @@
 Run:
 ```bash
 cd /Users/qinzj/github/claude-demo
-go mod init github.com/qinzj/claude-demo
+go mod init github.com/qinzj/ums-ldap
 ```
 
 **Step 2: Install core dependencies**
@@ -413,7 +413,7 @@ package dao
 import (
 	"context"
 
-	"github.com/qinzj/claude-demo/internal/ent"
+	"github.com/qinzj/ums-ldap/internal/ent"
 )
 
 type DAO struct {

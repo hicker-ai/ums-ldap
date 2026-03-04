@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/qinzj/claude-demo/internal/service"
+	"github.com/qinzj/ums-ldap/internal/service"
 )
 
 // JWTAuth returns a middleware that validates JWT tokens.

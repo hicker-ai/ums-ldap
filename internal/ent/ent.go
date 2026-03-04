@@ -12,8 +12,8 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
-	"github.com/qinzj/claude-demo/internal/ent/group"
-	"github.com/qinzj/claude-demo/internal/ent/user"
+	"github.com/qinzj/ums-ldap/internal/ent/group"
+	"github.com/qinzj/ums-ldap/internal/ent/user"
 )
 
 // ent aliases to avoid import conflicts in user's code.

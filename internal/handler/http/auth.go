@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/qinzj/claude-demo/internal/service"
+	"github.com/qinzj/ums-ldap/internal/service"
 )
 
 // AuthHandler handles authentication endpoints.

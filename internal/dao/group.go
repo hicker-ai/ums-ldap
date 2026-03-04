@@ -6,9 +6,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/qinzj/claude-demo/internal/domain"
-	"github.com/qinzj/claude-demo/internal/ent"
-	"github.com/qinzj/claude-demo/internal/ent/group"
+	"github.com/qinzj/ums-ldap/internal/domain"
+	"github.com/qinzj/ums-ldap/internal/ent"
+	"github.com/qinzj/ums-ldap/internal/ent/group"
 )
 
 // CreateGroup creates a new group.

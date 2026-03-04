@@ -7,7 +7,7 @@ import (
 	"github.com/jimlambrt/gldap"
 	"go.uber.org/zap"
 
-	"github.com/qinzj/claude-demo/internal/ldap/filter"
+	"github.com/qinzj/ums-ldap/internal/ldap/filter"
 )
 
 func (h *Handler) handleSearch(w *gldap.ResponseWriter, r *gldap.Request) {

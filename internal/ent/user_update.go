@@ -12,9 +12,9 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/google/uuid"
-	"github.com/qinzj/claude-demo/internal/ent/group"
-	"github.com/qinzj/claude-demo/internal/ent/predicate"
-	"github.com/qinzj/claude-demo/internal/ent/user"
+	"github.com/qinzj/ums-ldap/internal/ent/group"
+	"github.com/qinzj/ums-ldap/internal/ent/predicate"
+	"github.com/qinzj/ums-ldap/internal/ent/user"
 )
 
 // UserUpdate is the builder for updating User entities.

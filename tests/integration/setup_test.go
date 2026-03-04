@@ -16,12 +16,12 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	"go.uber.org/zap"
 
-	"github.com/qinzj/claude-demo/internal/config"
-	"github.com/qinzj/claude-demo/internal/dao"
-	"github.com/qinzj/claude-demo/internal/ent"
-	httphandler "github.com/qinzj/claude-demo/internal/handler/http"
-	ldaphandler "github.com/qinzj/claude-demo/internal/handler/ldap"
-	"github.com/qinzj/claude-demo/internal/service"
+	"github.com/qinzj/ums-ldap/internal/config"
+	"github.com/qinzj/ums-ldap/internal/dao"
+	"github.com/qinzj/ums-ldap/internal/ent"
+	httphandler "github.com/qinzj/ums-ldap/internal/handler/http"
+	ldaphandler "github.com/qinzj/ums-ldap/internal/handler/ldap"
+	"github.com/qinzj/ums-ldap/internal/service"
 )
 
 var (

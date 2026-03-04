@@ -15,14 +15,14 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	_ "github.com/qinzj/claude-demo/docs/api"
-	"github.com/qinzj/claude-demo/internal/config"
-	"github.com/qinzj/claude-demo/internal/dao"
-	"github.com/qinzj/claude-demo/internal/ent"
-	httphandler "github.com/qinzj/claude-demo/internal/handler/http"
-	ldaphandler "github.com/qinzj/claude-demo/internal/handler/ldap"
-	"github.com/qinzj/claude-demo/internal/service"
-	"github.com/qinzj/claude-demo/pkg/logs"
+	_ "github.com/qinzj/ums-ldap/docs/api"
+	"github.com/qinzj/ums-ldap/internal/config"
+	"github.com/qinzj/ums-ldap/internal/dao"
+	"github.com/qinzj/ums-ldap/internal/ent"
+	httphandler "github.com/qinzj/ums-ldap/internal/handler/http"
+	ldaphandler "github.com/qinzj/ums-ldap/internal/handler/ldap"
+	"github.com/qinzj/ums-ldap/internal/service"
+	"github.com/qinzj/ums-ldap/pkg/logs"
 )
 
 var serveCmd = &cobra.Command{

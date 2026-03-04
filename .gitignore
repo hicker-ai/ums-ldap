@@ -34,6 +34,8 @@ data/
 
 # Logs
 logs/
+!pkg/logs
+!vendor/*/logs
 
 # Environment
 .env

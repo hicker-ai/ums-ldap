@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/qinzj/claude-demo/internal/domain"
+	"github.com/qinzj/ums-ldap/internal/domain"
 )
 
 func TestAuthFlow(t *testing.T) {

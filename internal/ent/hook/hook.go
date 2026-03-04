@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/qinzj/claude-demo/internal/ent"
+	"github.com/qinzj/ums-ldap/internal/ent"
 )
 
 // The GroupFunc type is an adapter to allow the use of ordinary

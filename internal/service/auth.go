@@ -7,7 +7,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 
-	"github.com/qinzj/claude-demo/internal/domain"
+	"github.com/qinzj/ums-ldap/internal/domain"
 )
 
 // AuthService handles authentication and JWT tokens.

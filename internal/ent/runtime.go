@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/qinzj/claude-demo/internal/ent/group"
-	"github.com/qinzj/claude-demo/internal/ent/user"
-	"github.com/qinzj/claude-demo/internal/schema"
+	"github.com/qinzj/ums-ldap/internal/ent/group"
+	"github.com/qinzj/ums-ldap/internal/ent/user"
+	"github.com/qinzj/ums-ldap/internal/schema"
 )
 
 // The init function reads all schema descriptors with runtime code

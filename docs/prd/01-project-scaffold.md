@@ -17,7 +17,7 @@
 ### 1. Go Module 初始化
 
 ```bash
-go mod init github.com/qinzj/claude-demo
+go mod init github.com/qinzj/ums-ldap
 ```
 
 ### 2. 依赖安装

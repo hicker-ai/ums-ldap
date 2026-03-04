@@ -6,9 +6,9 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"go.uber.org/zap"
 
-	"github.com/qinzj/claude-demo/internal/config"
-	"github.com/qinzj/claude-demo/internal/middleware"
-	"github.com/qinzj/claude-demo/internal/service"
+	"github.com/qinzj/ums-ldap/internal/config"
+	"github.com/qinzj/ums-ldap/internal/middleware"
+	"github.com/qinzj/ums-ldap/internal/service"
 )
 
 // SetupRouter creates and configures the Gin router with all routes.

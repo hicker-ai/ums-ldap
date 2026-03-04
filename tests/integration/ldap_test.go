@@ -6,7 +6,7 @@ import (
 	goldap "github.com/go-ldap/ldap/v3"
 	"github.com/google/uuid"
 
-	"github.com/qinzj/claude-demo/internal/domain"
+	"github.com/qinzj/ums-ldap/internal/domain"
 )
 
 func ensureUser(t *testing.T, input domain.CreateUserInput) *domain.User {
